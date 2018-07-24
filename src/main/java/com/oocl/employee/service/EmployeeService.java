@@ -1,5 +1,6 @@
-package com.oocl.employee;
+package com.oocl.employee.service;
 
+import com.oocl.employee.bean.Employee;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -17,5 +18,9 @@ public class EmployeeService {
 
     public List<Employee> getAllEmployees() {
         return employeeList;
+    }
+
+    public boolean addEmployee(Employee employee) {
+        return employeeList.add(employee);
     }
 }

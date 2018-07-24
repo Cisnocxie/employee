@@ -1,4 +1,4 @@
-package com.oocl.employee;
+package com.oocl.employee.bean;
 
 public class Employee {
     private int id;
